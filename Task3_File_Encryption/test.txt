@@ -1,0 +1,3 @@
+Hello, this is a test file for encryption and decryption.
+This file contains some sample text to test our Python script.
+Have fun encrypting and decrypting!
