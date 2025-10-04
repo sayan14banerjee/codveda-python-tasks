@@ -1,6 +1,4 @@
-Sure! Here’s the **README.md** content for your To-Do List Application, formatted properly in Markdown:
 
-```markdown
 # 🎯 To-Do List Application
 
 A simple Python command-line application to **manage your daily tasks**. Users can **add**, **delete**, **mark tasks as done**, and **list all tasks**. Tasks are stored persistently in a **JSON file**, so your data is saved even after closing the program.
@@ -40,7 +38,7 @@ Task2_ToDoList/
 2. Open a terminal in the project folder.
 3. Run the script with:
 
-   ```bash
+ ```bash
    python todo.py
 ````
 
@@ -102,10 +100,3 @@ Exiting...
 
 (Add your LinkedIn submission link here after posting with hashtags:
 `#CodvedaJourney #CodvedaExperience #FutureWithCodveda`)
-
-```
-
----
-
-I can now **write the line-by-line recording script in the same style**, ready for you to read while demoing the project. Do you want me to do that next?
-```
