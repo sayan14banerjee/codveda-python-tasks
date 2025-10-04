@@ -79,7 +79,7 @@ Attempt 1/7 - Enter your guess: 50
 ## 👨‍💻 Author
 
 * Internship Task for **Codveda Technology**
-* Created by: *Your Name*
+* Created by: *Sayan Banerjee*
 
 ---
 
