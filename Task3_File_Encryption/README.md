@@ -1,85 +1,98 @@
-# 🔒 File Encryptor/Decryptor
+# 🎯 File Encryptor/Decryptor
 
-A Python script that allows you to **encrypt and decrypt files** using **Fernet encryption** from the `cryptography` library. This ensures your files are secure and cannot be read without the key.
+A Python command-line application to **encrypt and decrypt files** securely using **Fernet symmetric encryption**. Users can **encrypt any file** and later **decrypt it** using the same secret key. This ensures that files are safe from unauthorized access.
 
 ---
 
 ## 🚀 Features
 
-* Encrypt any file and save it with `.enc` extension
-* Decrypt an encrypted file back to original content
-* Automatic **key generation** (`key.key`) if it doesn't exist
-* Simple **CLI menu** for user-friendly interaction
+* Encrypt any file and save it with `.enc` extension.
+* Decrypt encrypted files back to their original content.
+* Automatic **key generation** (`key.key`) if it doesn't exist.
+* Menu-based Command Line Interface (CLI) for easy usage.
 * Supports all file types: `.txt`, `.pdf`, `.jpg`, etc.
-* Decrypted files are saved with prefix `decrypted_` to avoid overwriting original files
+* Decrypted files are saved with prefix `decrypted_` to avoid overwriting original files.
+* Error handling for invalid files or wrong keys.
 
 ---
 
-## 💻 Requirements
+## 📂 Project Structure
 
-* Python 3.x
-* `cryptography` module
+\`\`\`
+FileEncryptionProject/
+│── file_encryptor.py    # Main script
+│── key.key             # Secret key for encryption/decryption
+│── test.txt            # Sample file to encrypt/decrypt
+│── README.md           # Documentation
+\`\`\`
 
-Install cryptography via pip if not already installed:
+---
 
-```bash
-pip install cryptography
-📁 Files
-file_encryptor.py → Main Python script
+## 🖥️ How to Run
 
-key.key → Secret key for encryption/decryption (auto-generated)
+1. Clone this repository or download the folder.
+2. Make sure Python 3.x is installed.
+3. Install the required library: `cryptography`
+4. Open a terminal in the project folder and run `python file_encryptor.py`.
+5. Follow the CLI menu:
+   * Enter `1` to Encrypt a file
+   * Enter `2` to Decrypt a file
+6. Enter the filename (with extension) when prompted.
 
-Any file you want to encrypt/decrypt (e.g., test.txt)
+---
 
-⚡ Usage
-Place file_encryptor.py and the file you want to encrypt/decrypt in the same folder.
+## 🎥 Demo
 
-Run the script:
+Watch a demo of the script in action:
+[File Encryptor/Decryptor Demo](https://youtu.be/your-demo-link)
 
-bash
-Copy code
-python file_encryptor.py
-Choose an option from the CLI menu:
+---
 
-css
-Copy code
-1 → Encrypt a file
-2 → Decrypt a file
-Enter the filename (with extension) when prompted.
+## 📌 Example Usage
 
-🔐 Example
-Encrypt test.txt:
-mathematica
-Copy code
+**Encrypt `test.txt`:**
+
+\`\`\`
+===== File Encryptor/Decryptor =====
+1. Encrypt a file
+2. Decrypt a file
 Enter your choice (1/2): 1
-Enter the filename: test.txt
-Output: test.txt.enc
+Enter the filename (with extension): test.txt
+File encrypted successfully! Saved as test.txt.enc
+\`\`\`
 
-Decrypt test.txt.enc:
-mathematica
-Copy code
+**Decrypt `test.txt.enc`:**
+
+\`\`\`
+===== File Encryptor/Decryptor =====
+1. Encrypt a file
+2. Decrypt a file
 Enter your choice (1/2): 2
-Enter the filename: test.txt.enc
-Output: decrypted_test.txt
+Enter the filename (with extension): test.txt.enc
+File decrypted successfully! Saved as decrypted_test.txt
+\`\`\`
 
-⚠️ Notes
-Keep key.key safe! Without it, encrypted files cannot be decrypted.
+---
 
-Encryption works on all types of files (text, images, PDF, etc.).
+## 🛠️ Technologies Used
 
-Decrypted files are prefixed with decrypted_ to prevent overwriting the original file.
+* Python 3
+* `cryptography` module (`Fernet` for encryption/decryption)
+* `os` module (file handling)
 
-📂 Folder Structure Example
-vbnet
-Copy code
-/FileEncryptionProject
-    ├─ file_encryptor.py
-    ├─ key.key
-    ├─ test.txt
-    └─ test.txt.enc
-🎥 Video Demo
-Watch a sample demo of the script in action:
-File Encryptor/Decryptor Demo
+---
 
-🔗 Connect with Me
-LinkedIn Profile
+## 👨‍💻 Author
+
+* Internship Task for **Codveda Technology**
+* Created by: *Sayan Banerjee*
+
+---
+
+## 🔗 LinkedIn Submission
+
+Add your LinkedIn post after submission:
+[LinkedIn Post](https://www.linkedin.com/in/your-linkedin-profile)
+Suggested hashtags: `#CodvedaJourney #CodvedaExperience #FutureWithCodveda`
+
+---
